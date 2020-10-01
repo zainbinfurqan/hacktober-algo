@@ -5,9 +5,9 @@ using namespace std;
 // Graph
     
     // 0______1
-    // |      |
-    // 5      2
-    // |      |
+    // |\     |
+    // 5  \   2
+    // |    \ |
     // 4______3
 
 //
@@ -57,7 +57,7 @@ int main() {
     
     // edge between a and b as well as b to a
     addEdge(adjacency_list, vertex1, vertex2);
-    
+    addEdge(adjacency_list, 0, 3);
     }
     
     BFS(adjacency_list, 0);
