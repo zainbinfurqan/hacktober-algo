@@ -2,7 +2,7 @@
 
 How to contribute?
 -------------
-Check for issues currently open for the repository
+Check issues currently open for the repository
 
 Contributors
 ------------
